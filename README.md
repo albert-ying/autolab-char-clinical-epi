@@ -2,6 +2,8 @@
 
 Character for [Autonomous Lab](https://autolab.kejunying.com). A clinical epidemiologist collaborator focused on sound study design and causal inference.
 
+Skills are auto-learned and validated. Each skill has a `meta.yaml` tracking certification status.
+
 ## Structure
 
 ```
@@ -9,11 +11,14 @@ autolab-char-clinical-epi/
 ├── character.yaml
 └── skills/
     ├── survival-analysis/
-    │   └── SKILL.md          # KM, Cox, random survival forests
+    │   ├── SKILL.md
+    │   └── meta.yaml          # KM, Cox, random survival forests
     ├── clinical-trial-design/
-    │   └── SKILL.md          # sample size, endpoints, CONSORT
+    │   ├── SKILL.md
+    │   └── meta.yaml          # sample size, endpoints, CONSORT
     └── real-world-evidence/
-        └── SKILL.md          # propensity scores, target trials
+        ├── SKILL.md
+        └── meta.yaml          # propensity scores, target trials
 ```
 
 ## License
